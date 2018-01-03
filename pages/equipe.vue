@@ -1,5 +1,5 @@
 <template>
   <div>
       equipe
-    </div>
+  </div>
 </template>

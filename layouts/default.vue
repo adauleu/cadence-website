@@ -28,6 +28,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 *, *:before, *:after {
@@ -43,4 +44,33 @@ html {
   align-items: center;
   text-align: center;
 }
+
+.page-img {
+  font-size: 28px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+  padding: 0 15%;
+  width: 100%;
+  letter-spacing: 1.9px;
+  line-height: 45.3px;
+}
+
+.description{
+  color: #33545C;
+  font-size: 19px;
+  letter-spacing: 1.29px;
+  line-height: 32.36px;
+  padding: 40px 15%;
+}
+
+.description p{
+  margin: 30px 0
+}
+
 </style>
