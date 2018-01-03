@@ -61,6 +61,13 @@ html {
   line-height: 45.3px;
 }
 
+.page-img p{
+  color: #FFFFFF;
+  font-size: 19px;
+  letter-spacing: 0.91px;
+  line-height: 35px;
+}
+
 .description{
   color: #33545C;
   font-size: 19px;
