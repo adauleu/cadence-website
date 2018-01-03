@@ -1,7 +1,8 @@
 <template>
 <header>
   <img id="logo" src="~/assets/Logo-Header.svg" />
-  <img id="hamburger" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
+    {{ currentMenu($route.path) }}
+    <img id="hamburger" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
   <div id="menu" v-show="menuOpened">
     <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
     <ul>
@@ -34,9 +35,20 @@ export default {
   methods: {
     toggleMenu: function() {
       this.menuOpened = !this.menuOpened;
-    }
+    },
+    currentMenu : function (path){
+  var mapping = {
+    '/equipe' : 'Équipe',
+    '/savoir-faire' : 'Savoir-faire',
+    '/cabinet' : 'Le cabinet',
+    '/valeurs' : 'Valeurs et Engagements',
+    '/contact' : 'Contact'
+  }
+  return mapping[''+path]
+}
   }
 };
+
 </script>
 <style>
 header {
@@ -73,11 +85,11 @@ header {
 }
 ul {
   clear: both;
-  margin: 50px 5px;
+  margin: 50px 0px;
 }
 li {
   list-style: none;
-  margin : 10px 0px 10px 0px;
+  margin : 20px 0px 0px 0px;
 }
 a {
   text-transform: uppercase;

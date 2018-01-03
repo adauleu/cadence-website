@@ -2,19 +2,19 @@
   <footer>
     <ul>
       <li>
-        <a href="/equipe">Équipe</a>
+        <nuxt-link to="/equipe">Équipe</nuxt-link>
       </li>
       <li>
-        <a href="/savoir-faire">Savoir-faire</a>
+        <nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link>
       </li>
       <li>
-        <a href="/cabinet">Le cabinet</a>
+        <nuxt-link to="/cabinet">Le cabinet</nuxt-link>
       </li>
       <li>
-        <a href="/valeurs">Valeurs</a>
+        <nuxt-link to="/valeurs">Valeurs</nuxt-link>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <nuxt-link to="/contact">Contact</nuxt-link>
       </li>
     </ul>
     <div class="address-logo-wrapper">
@@ -27,7 +27,7 @@
 <style scoped>
   footer {
     background-color: #33545C;
-    padding: 0 50px;
+    padding: 0 100px;
     width: 100%;
   }
   ul {
@@ -36,13 +36,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
-    padding-top: 50px;
     padding-left: 0;
     width: 100%;
   }
   ul li a {
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -56,7 +55,7 @@
   }
   address {
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1em;
     font-style: normal;
     text-align: left;
   }
