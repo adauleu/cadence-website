@@ -1,29 +1,31 @@
 <template>
-<header>
-  <img id="logo" src="~/assets/Logo-Header.svg" />
-    {{ currentMenu($route.path) }}
-    <img id="hamburger" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
-  <div id="menu" v-show="menuOpened">
-    <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
-    <ul>
-        <li>
-          <a href="/equipe">Équipe</a>
-        </li>
-        <li>
-          <a href="/savoir-faire">Savoir-faire</a>
-        </li>
-        <li>
-          <a href="/cabinet">Le cabinet</a>
-        </li>
-        <li>
-          <a href="/valeurs">Valeurs et Engagements</a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
-      </ul>
-  </div>
-</header>
+  <header>
+      <nuxt-link to="/">
+        <img id="logo" src="~/assets/Logo-Header.svg" />
+      </nuxt-link>
+      {{ currentMenu($route.path) }}
+      <img id="hamburger" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
+    <div id="menu" v-show="menuOpened">
+      <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
+      <ul>
+          <li>
+            <a href="/equipe">Équipe</a>
+          </li>
+          <li>
+            <a href="/savoir-faire">Savoir-faire</a>
+          </li>
+          <li>
+            <a href="/cabinet">Le cabinet</a>
+          </li>
+          <li>
+            <a href="/valeurs">Valeurs et Engagements</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+    </div>
+  </header>
 </template>
 <script>
 export default {
@@ -36,25 +38,41 @@ export default {
     toggleMenu: function() {
       this.menuOpened = !this.menuOpened;
     },
-    currentMenu : function (path){
-  var mapping = {
-    '/equipe' : 'Équipe',
-    '/savoir-faire' : 'Savoir-faire',
-    '/cabinet' : 'Le cabinet',
-    '/valeurs' : 'Valeurs et Engagements',
-    '/contact' : 'Contact'
-  }
-  return mapping[''+path]
-}
+    currentMenu: function(path) {
+      var mapping = {
+        "/equipe": "Équipe",
+        "/savoir-faire": "Savoir-faire",
+        "/cabinet": "Le cabinet",
+        "/valeurs": "Valeurs et Engagements",
+        "/contact": "Contact"
+      };
+      return mapping["" + path];
+    }
   }
 };
-
 </script>
-<style>
+<style scoped>
 header {
   position: relative;
   width: 100%;
 }
+
+ul {
+  clear: both;
+  margin: 50px 0px;
+}
+li {
+  list-style: none;
+  margin: 20px 0px 0px 0px;
+}
+a {
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+}
+</style>
+
+<style>
 #hamburger {
   position: absolute;
   right: 0;
@@ -83,18 +101,4 @@ header {
 #logo {
   margin: 40px;
 }
-ul {
-  clear: both;
-  margin: 50px 0px;
-}
-li {
-  list-style: none;
-  margin : 20px 0px 0px 0px;
-}
-a {
-  text-transform: uppercase;
-  color: inherit;
-  text-decoration: none;
-}
 </style>
-

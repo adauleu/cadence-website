@@ -73,11 +73,18 @@ html {
   font-size: 19px;
   letter-spacing: 1.29px;
   line-height: 32.36px;
-  padding: 40px 15%;
+  margin: 100px 15%;
 }
 
 .description p{
+  text-align: left;
+}
+
+.separator{
   margin: 30px 0
+}
+.separator-vertical{
+  margin: 0 30px
 }
 
 </style>

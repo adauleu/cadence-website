@@ -6,27 +6,27 @@
       </div>
       <div class="description">
         <h1>Coordonnées</h1>
-        <div id="coordinates">
+        <section id="contact">
           <div id="address">
             <p>Cadence Avocats</p>
             <p>160, rue du Temple</p>
             <p>75003 Paris</p>
           </div>
-          <img src="~/assets/Point-3-Vertical.svg"/>
-          <div>
-            <div>
-              <p>Tel</p>
-              <p>Fax</p>
-              <p>Mail</p>
+          <img src="~/assets/Point-3-Vertical.svg" class="separator-vertical"/>
+          <div id="coordinates">
+            <div id="abbreviations">
+              <abbr>Tel</abbr>
+              <abbr>Fax</abbr>
+              <abbr>Mail</abbr>
             </div>
-            <div>
+            <div id="numbers">
               <a href="tel:+33177378910">01 77 37 89 10</a>
               <a href="tel:+33142780357">01 42 78 03 57</a>
               <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a>
             </div>
           </div>
-        </div>
-        <img src="~/assets/Point-3.svg"/>
+        </section>
+        <img src="~/assets/Point-3.svg" class="separator"/>
         <h1>Recrutement</h1>
         <p>
           Les personnes intéressées par un stage ou une collaboration sont invitées à adresser leur lettre de motivation accompagnée d’un curriculum vitae à l’adresse suivante :
@@ -44,17 +44,44 @@
 h1 {
   text-transform: uppercase;
   font-size: 23px;
+  font-weight: normal;
   letter-spacing: 2.11px;
   line-height: 45.3px;
 }
 
-.description p{
+a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+abbr {
+  display: block;
+}
+</style>
+
+<style>
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+#address {
+  flex: 1;
+}
+
+#address p {
+  text-align: right;
+}
+
+#coordinates {
+  display: flex;
+  flex: 1;
   text-align: left;
 }
 
-a{
-  color: inherit;
-  display:block;
-  text-decoration: none;
+#numbers {
+  margin-left: 15px;
 }
 </style>

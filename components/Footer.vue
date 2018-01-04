@@ -27,7 +27,7 @@
 <style scoped>
   footer {
     background-color: #33545C;
-    padding: 0 100px;
+    padding: 40px 100px;
     width: 100%;
   }
   ul {
@@ -50,7 +50,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
-    padding: 200px 0 50px 0;
+    padding-top: 200px;
     width: 100%;
   }
   address {
