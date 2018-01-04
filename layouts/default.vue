@@ -73,7 +73,7 @@ html {
   font-size: 19px;
   letter-spacing: 1.29px;
   line-height: 32.36px;
-  margin: 100px 15%;
+  margin: 100px 20%;
 }
 
 .description p{

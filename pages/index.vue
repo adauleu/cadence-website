@@ -3,6 +3,7 @@
       <div class="page-img">
         Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.
       </div>
+
       <div class="description">
         <p>
           Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.
@@ -28,5 +29,9 @@
 <style scoped>
 .page-img {
   background-image: url("~/assets/images/Hero-Accueil.png");
+}
+
+.description p {
+  margin-bottom: 20px;
 }
 </style>

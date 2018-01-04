@@ -47,6 +47,7 @@ h1 {
   font-weight: normal;
   letter-spacing: 2.11px;
   line-height: 45.3px;
+  margin-bottom: 20px;
 }
 
 a {
