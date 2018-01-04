@@ -27,6 +27,7 @@
     </div>
   </header>
 </template>
+
 <script>
 export default {
   data: function() {
@@ -51,6 +52,7 @@ export default {
   }
 };
 </script>
+
 <style scoped>
 header {
   position: relative;
