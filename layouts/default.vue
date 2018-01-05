@@ -7,20 +7,21 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Header,
     Footer
   }
-}
+};
 </script>
 
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -28,10 +29,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -62,38 +65,41 @@ html {
   line-height: 45.3px;
 }
 
-.page-img p{
-  color: #FFFFFF;
+.page-img p {
+  color: #ffffff;
   font-size: 19px;
   letter-spacing: 0.91px;
   line-height: 35px;
 }
 
-.description{
-  color: #33545C;
-  font-size: 19px;
-  letter-spacing: 1.29px;
-  line-height: 32.36px;
+.page-content-wrapper {
   margin: 100px 20%;
 }
 
-.description div{
+.page-content {
+  color: #33545c;
+  font-size: 19px;
+  letter-spacing: 1.29px;
+  line-height: 32.36px;
+}
+
+.page-content div {
   text-align: left;
 }
 
-.description p {
+.page-content p {
   margin-bottom: 30px;
 }
 
-.description p:last-child {
+.page-content p:last-child {
   margin-bottom: 0;
 }
 
-.separator{
-  margin: 30px 0
+.separator {
+  margin: 30px 0;
 }
-.separator-vertical{
-  margin: 0 30px
+.separator-vertical {
+  margin: 0 30px;
 }
 
 h1 {
@@ -106,10 +112,10 @@ h1 {
 }
 
 h2 {
-font-size: 15px;
-letter-spacing: 1.65px;
-line-height: 45.3px;
-margin-bottom: 20px;
-text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.65px;
+  line-height: 45.3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 </style>
