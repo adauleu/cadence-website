@@ -1,31 +1,21 @@
 <template>
-  <header>
-      <nuxt-link to="/">
-        <img id="logo" src="~/assets/Logo-Header.svg" />
-      </nuxt-link>
-      {{ currentMenu($route.path) }}
-      <img id="hamburger" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
-    <div id="menu" v-show="menuOpened">
-      <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
-      <ul>
-          <li>
-            <a href="/equipe">Équipe</a>
-          </li>
-          <li>
-            <a href="/savoir-faire">Savoir-faire</a>
-          </li>
-          <li>
-            <a href="/cabinet">Le cabinet</a>
-          </li>
-          <li>
-            <a href="/valeurs">Valeurs et Engagements</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-    </div>
-  </header>
+<header>
+  <div @click="closeMenu()"><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
+  
+  <div id="hamburger">
+    <div id="currentpage">{{currentMenu($route.path)}} </div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
+  </div>
+  <div id="menu" v-show="menuOpened">
+    <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
+    <ul>
+      <li  @click="toggleMenu()"><nuxt-link to="/equipe">Équipe</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/cabinet">Le cabinet</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/valeurs">Valeurs et Engagements</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/contact">Contact</nuxt-link></li>
+    </ul>
+  </div>
+</header>
 </template>
 
 <script>
@@ -39,8 +29,12 @@ export default {
     toggleMenu: function() {
       this.menuOpened = !this.menuOpened;
     },
+    closeMenu: function() {
+      this.menuOpened = false;
+    },
     currentMenu: function(path) {
       var mapping = {
+        "/": "",
         "/equipe": "Équipe",
         "/savoir-faire": "Savoir-faire",
         "/cabinet": "Le cabinet",
@@ -72,20 +66,29 @@ a {
   color: inherit;
   text-decoration: none;
 }
-</style>
-
-<style>
 #hamburger {
   position: absolute;
   right: 0;
-  margin: 10px;
+  top: 0;
+  vertical-align: middle;
+  margin: 20px;
+  text-transform: uppercase;
+  color: inherit;
+}
+#hamburgerbutton {
+  margin-left: 20px;
+  padding-top: 1px;
+  float: right;
 }
 #hamburger-closed {
   position: absolute;
   right: 0;
   margin: 10px;
   float: right;
-  margin: 10px;
+  margin: 20px;
+}
+#currentpage {
+  float: left;
 }
 #menu {
   background-color: #33545c;
