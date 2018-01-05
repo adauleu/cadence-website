@@ -109,14 +109,6 @@ button {
 button.active {
   font-weight: bold;
 }
-
-.description p {
-  margin-bottom: 30px;
-}
-
-.description p:last-child {
-  margin-bottom: 0;
-}
 </style>
 
 <style>

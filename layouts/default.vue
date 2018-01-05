@@ -81,6 +81,14 @@ html {
   text-align: left;
 }
 
+.description p {
+  margin-bottom: 30px;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
+
 .separator{
   margin: 30px 0
 }

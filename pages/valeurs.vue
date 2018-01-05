@@ -15,13 +15,15 @@
         </div>
         <img src="~/assets/Point-2.svg" class="separator"/>
         <div>
-          La confiance passe également par la transparence tarifaire et la prévisibilité.
-        </div>
-        <div>
-          Les prestations du cabinet font ainsi systématiquement l’objet d’un devis ou d’une convention d’honoraires préalable, dans le respect des règles déontologiques de la profession, afin d’assurer une visibilité sur les montants engagés.
-        </div>
-        <div>
-          Ces honoraires sont fixés en accord avec le client, et donnent lieu à une information régulière en fonction de l’avancement du dossier
+          <p>
+            La confiance passe également par la transparence tarifaire et la prévisibilité.
+          </p>
+          <p>
+            Les prestations du cabinet font ainsi systématiquement l’objet d’un devis ou d’une convention d’honoraires préalable, dans le respect des règles déontologiques de la profession, afin d’assurer une visibilité sur les montants engagés.
+          </p>
+          <p>
+            Ces honoraires sont fixés en accord avec le client, et donnent lieu à une information régulière en fonction de l’avancement du dossier
+          </p>
         </div>
         <img src="~/assets/Point-3.svg" class="separator"/>
       </div>
