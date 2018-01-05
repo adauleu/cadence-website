@@ -55,7 +55,7 @@ header {
 
 ul {
   clear: both;
-  margin: 50px 0px;
+  margin: 50px 0px 30px 0px;
 }
 li {
   list-style: none;
