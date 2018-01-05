@@ -21,7 +21,7 @@
             </div>
             <div id="numbers">
               <a href="tel:+33177378910">01 77 37 89 10</a>
-              <a href="tel:+33142780357">01 42 78 03 57</a>
+              <a href="fax:+33142780357">01 42 78 03 57</a>
               <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a>
             </div>
           </div>
@@ -39,15 +39,6 @@
 <style scoped>
 .page-img {
   background-image: url("~/assets/images/Hero-Contact.png");
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 23px;
-  font-weight: normal;
-  letter-spacing: 2.11px;
-  line-height: 45.3px;
-  margin-bottom: 20px;
 }
 
 a {

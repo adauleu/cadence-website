@@ -13,49 +13,61 @@
 
       <div class="description">
 
-        <div v-show="isDroitAffaires">
+        <article v-show="isDroitAffaires">
           <h1>Droit des affaires</h1>
           <h2>Droit des sociétés</h2>
-          <p>
+          <div>
             Cadence Avocats assiste ses clients dans la création de sociétés (mise en place d’une gouvernance, pactes d’actionnaires) comme dans les opérations d’acquisition, de cession, et de restructuration (fusion, scission, apport partiel d’actifs).
-          </p>
+          </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <h2>Droit commercial</h2>
-          <p>
+          <div>
             Le cabinet assiste ses clients en matière de baux commerciaux (rédaction, renouvellement, cession) et de cession de fonds de commerce, mais également dans la rédaction de leurs conditions générales et contrats commerciaux, ainsi qu’en droit de la distribution.
-          </p>
+          </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <h2>Financement</h2>
-          <p>
-            Le cabinet intervient en droit bancaire et financier.
-            Le cabinet a également développé une expertise en matière de financement participatif (assistance des Conseillers en Investissement Participatif et des Intermédiaires en Financement Participatif, et assistance des porteurs de projet dans la réalisation de leurs opérations de financement).
-          </p>
+          <div>
+            <p>
+              Le cabinet intervient en droit bancaire et financier.
+            </p>
+            <p>
+              Le cabinet a également développé une expertise en matière de financement participatif (assistance des Conseillers en Investissement Participatif et des Intermédiaires en Financement Participatif, et assistance des porteurs de projet dans la réalisation de leurs opérations de financement).
+            </p>
+          </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <h2>Résolution des différends</h2>
-          <p>
-            Cadence Avocats accompagne ses clients en matière précontentieuse, notamment dans la recherche de solutions amiables aux litiges.
-            Cadence Avocats assiste et défend ses clients devant les juridictions judiciaires civiles et commerciales, notamment dans les domaines du contentieux entre actionnaires, du contentieux commercial (rupture brutale, concurrence déloyale, problématiques de responsabilité contractuelle ou délictuelle), de la révocation et mise en cause de la responsabilité des dirigeants, et des voies d’exécution.
-          </p>
-        </div>
+          <div>
+            <p>
+              Cadence Avocats accompagne ses clients en matière précontentieuse, notamment dans la recherche de solutions amiables aux litiges.
+            </p>
+            <p>
+              Cadence Avocats assiste et défend ses clients devant les juridictions judiciaires civiles et commerciales, notamment dans les domaines du contentieux entre actionnaires, du contentieux commercial (rupture brutale, concurrence déloyale, problématiques de responsabilité contractuelle ou délictuelle), de la révocation et mise en cause de la responsabilité des dirigeants, et des voies d’exécution.
+            </p>
+          </div>
+        </article>
 
-        <div v-show="!isDroitAffaires">
+        <article v-show="!isDroitAffaires">
           <h1>Droit social</h1>
           <h2>Gestion quotidienne des relations de travail</h2>
-          <p>
-            Le cabinet accompagne les entreprises dans la gestion quotidienne des ressources humaines (rédaction des contrats de travail, gestion des licenciements quel que soit le motif, gestion des départs négociés…) et des relations sociales (mise en place et gestion des institutions représentatives du personnel, gestion des relations avec les représentants du personnel et les organisations syndicales).
-Cadence Avocats a développé une expertise particulière en matière de gestion et de suivi des différents régimes d’aménagements du temps de travail, ainsi que pour la mise en place de politiques de primes / rémunérations variables au sein de l’entreprise.
-          </p>
+          <div>
+            <p>
+              Le cabinet accompagne les entreprises dans la gestion quotidienne des ressources humaines (rédaction des contrats de travail, gestion des licenciements quel que soit le motif, gestion des départs négociés…) et des relations sociales (mise en place et gestion des institutions représentatives du personnel, gestion des relations avec les représentants du personnel et les organisations syndicales).
+            </p>
+            <p>
+              Cadence Avocats a développé une expertise particulière en matière de gestion et de suivi des différents régimes d’aménagements du temps de travail, ainsi que pour la mise en place de politiques de primes / rémunérations variables au sein de l’entreprise.
+            </p>
+          </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <h2>Contentieux social</h2>
-          <p>
+          <div>
             Cadence Avocats assiste et accompagne ses clients dans tous leurs litiges sociaux : contentieux social individuel (notamment en matière de licenciement, harcèlement et discrimination, prise d’acte, résiliation judiciaire, violation des règles de durée du travail, travail dissimulé, requalification de contrat précaire en CDI), contentieux social collectif (élection et désignation des représentants du personnel, délits d’entrave), contentieux administratif (salariés protégés) et contentieux de sécurité sociale (faute inexcusable notamment).
-          </p>
+          </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <h2>Opérations stratégiques</h2>
-          <p>
+          <div>
             Le cabinet assiste ses clients à l’occasion d’opérations stratégiques et/ou complexes, sur les aspects sociaux de ces opérations : réalisation d’audits d’acquisition et de conformité, gestion des incidences sociales de restructurations.
-          </p>
-        </div>
+          </div>
+        </article>
 
       </div>
   </section>
@@ -96,6 +108,14 @@ button {
 
 button.active {
   font-weight: bold;
+}
+
+.description p {
+  margin-bottom: 30px;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
 }
 </style>
 

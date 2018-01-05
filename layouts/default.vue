@@ -47,6 +47,7 @@ html {
 
 .page-img {
   font-size: 28px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
@@ -76,7 +77,7 @@ html {
   margin: 100px 20%;
 }
 
-.description p{
+.description div{
   text-align: left;
 }
 
@@ -87,4 +88,20 @@ html {
   margin: 0 30px
 }
 
+h1 {
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: 2.11px;
+  line-height: 45.3px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+h2 {
+font-size: 15px;
+letter-spacing: 1.65px;
+line-height: 45.3px;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
 </style>
