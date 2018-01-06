@@ -31,7 +31,7 @@
               Le cabinet assiste ses clients en matière de baux commerciaux (rédaction, renouvellement, cession) et de cession de fonds de commerce, mais également dans la rédaction de leurs conditions générales et contrats commerciaux, ainsi qu’en droit de la distribution.
             </div>
 
-            <img src="~/assets/Point-1.svg" class="separator"/>
+            <img src="~/assets/Point-2.svg" class="separator"/>
 
             <h2>Financement</h2>
 
@@ -44,7 +44,7 @@
               </p>
             </div>
 
-            <img src="~/assets/Point-1.svg" class="separator"/>
+            <img src="~/assets/Point-3.svg" class="separator"/>
 
             <h2>Résolution des différends</h2>
 
@@ -80,7 +80,7 @@
               Cadence Avocats assiste et accompagne ses clients dans tous leurs litiges sociaux : contentieux social individuel (notamment en matière de licenciement, harcèlement et discrimination, prise d’acte, résiliation judiciaire, violation des règles de durée du travail, travail dissimulé, requalification de contrat précaire en CDI), contentieux social collectif (élection et désignation des représentants du personnel, délits d’entrave), contentieux administratif (salariés protégés) et contentieux de sécurité sociale (faute inexcusable notamment).
             </div>
 
-            <img src="~/assets/Point-1.svg" class="separator"/>
+            <img src="~/assets/Point-2.svg" class="separator"/>
 
             <h2>Opérations stratégiques</h2>
 
