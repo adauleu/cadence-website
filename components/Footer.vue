@@ -11,7 +11,7 @@
         <nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/valeurs">Valeurs</nuxt-link>
+        <nuxt-link to="/valeurs">Valeurs et engagements</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/contact">Contact</nuxt-link>
@@ -27,7 +27,7 @@
 <style scoped>
   footer {
     background-color: #33545C;
-    padding: 40px 15%;
+    padding: 50px 20%;
     width: 100%;
   }
   ul {
@@ -41,7 +41,7 @@
   }
   ul li a {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -50,12 +50,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
-    padding-top: 200px;
+    padding-top: 50px;
     width: 100%;
   }
   address {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 16px;
     font-style: normal;
     text-align: left;
   }
