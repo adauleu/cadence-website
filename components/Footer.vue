@@ -27,7 +27,7 @@
 <style scoped>
   footer {
     background-color: #33545C;
-    padding: 40px 100px;
+    padding: 40px 15%;
     width: 100%;
   }
   ul {
@@ -58,8 +58,5 @@
     font-size: 1em;
     font-style: normal;
     text-align: left;
-  }
-  img {
-    width: 500px;
   }
 </style>

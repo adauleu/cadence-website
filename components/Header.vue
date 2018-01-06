@@ -3,7 +3,7 @@
   <div @click="closeMenu()"><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
   
   <div id="hamburger">
-    <div id="currentpage">{{currentMenu($route.path)}} </div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
+    <div id="currentpage"><strong>{{currentMenu($route.path)}}</strong></div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
   </div>
   <div id="menu" v-show="menuOpened">
     <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
@@ -88,6 +88,7 @@ a {
   margin: 20px;
 }
 #currentpage {
+  color: #33545c;
   float: left;
 }
 #menu {

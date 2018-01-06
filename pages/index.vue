@@ -23,8 +23,6 @@
           <p>
             Résolument moderne, le modèle du cabinet repose sur la proximité et privilégie un contact simple et direct avec ses clients.
           </p>
-
-          <img src="~/assets/Point-3.svg" class="separator"/>
         </div>
       </div>
   </section>
