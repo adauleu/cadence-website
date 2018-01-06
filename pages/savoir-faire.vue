@@ -15,8 +15,6 @@
         <div class="page-content">
 
           <article v-show="isDroitAffaires">
-            <h1>Droit des affaires</h1>
-
             <h2>Droit des sociétés</h2>
 
             <div>
@@ -59,8 +57,6 @@
           </article>
 
           <article v-show="!isDroitAffaires">
-            <h1>Droit social</h1>
-
             <h2>Gestion quotidienne des relations de travail</h2>
 
             <div>
