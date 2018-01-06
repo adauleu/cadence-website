@@ -2,7 +2,7 @@
   <section>
       <div class="page-img">
         <p>Contact</p>
-        Pour toute question ou demande d’information,vous pouvez nous contacter aux coordonnées suivantes.
+        Pour toute question ou demande d’information, vous pouvez nous contacter aux coordonnées suivantes.
       </div>
 
       <div class="page-content-wrapper">

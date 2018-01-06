@@ -8,9 +8,9 @@
   <div id="menu" v-show="menuOpened">
     <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
     <ul>
-      <li  @click="toggleMenu()"><nuxt-link to="/equipe">Équipe</nuxt-link></li>
-      <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link></li>
       <li @click="toggleMenu()"><nuxt-link to="/cabinet">Le cabinet</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/equipe">Équipe</nuxt-link></li>
+      <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link></li>
       <li @click="toggleMenu()"><nuxt-link to="/valeurs">Valeurs et Engagements</nuxt-link></li>
       <li @click="toggleMenu()"><nuxt-link to="/contact">Contact</nuxt-link></li>
     </ul>

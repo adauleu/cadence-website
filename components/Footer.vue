@@ -2,13 +2,13 @@
   <footer>
     <ul>
       <li>
+        <nuxt-link to="/cabinet">Le cabinet</nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/equipe">Équipe</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/cabinet">Le cabinet</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/valeurs">Valeurs</nuxt-link>
