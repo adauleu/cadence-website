@@ -31,6 +31,7 @@
 <style scoped>
 .page-img {
   background-image: url("~/assets/images/Hero-Accueil.png");
+  background-position: center bottom;
 }
 
 .description p {
