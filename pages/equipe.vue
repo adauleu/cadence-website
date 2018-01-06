@@ -1,7 +1,7 @@
 <template>
   <div id="members" class="page-content">
     <article>
-      <img src="~/assets/images/Anne-Sophie.png" height="454" width="302">
+      <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302">
       <h1>Anne-Sophie Wafo-Tapa</h1>
       <div>
         <p>
@@ -23,7 +23,7 @@
     </article>
     <img src="~/assets/Point-3-Vertical.svg" class="separator-vertical"/>
     <article>
-      <img src="~/assets/images/Marie.png" height="454" width="302">
+      <img src="~/assets/images/Marie.jpg" height="454" width="302">
       <h1>Marie Plassart</h1>
       <div>
         <p>
