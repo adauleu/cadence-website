@@ -2,8 +2,8 @@
 <header>
   <div @click="closeMenu()"><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
   
-  <div id="hamburger">
-    <div id="currentpage"><strong>{{currentMenu($route.path)}}</strong></div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" @click="toggleMenu()" v-show="!menuOpened"/>
+  <div id="hamburger" @click="toggleMenu()">
+    <div id="currentpage">{{currentMenu($route.path)}}</div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" v-show="!menuOpened"/>
   </div>
   <div id="menu" v-show="menuOpened">
     <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
@@ -33,7 +33,7 @@ export default {
       this.menuOpened = false;
     },
     currentMenu: function(path) {
-      var mapping = {
+      const mapping = {
         "/": "",
         "/equipe": "Équipe",
         "/savoir-faire": "Savoir-faire",
@@ -55,30 +55,44 @@ header {
 
 ul {
   clear: both;
-  margin: 50px 0px 30px 0px;
+  margin: 40px 0px 20px 0px;
+  padding-left: 0;
 }
-li {
+ul li {
   list-style: none;
-  margin: 20px 0px 0px 0px;
+  padding: 0;
 }
-a {
-  text-transform: uppercase;
+ul li a {
   color: inherit;
+  display: flex;
+  padding: 10px 0 10px 40px;
   text-decoration: none;
+  text-transform: uppercase;
+}
+/* ul li:first-child a {
+  padding-top: 0;
+} */
+ul li a:hover {
+  background: #ffffff;
+  color: #33545c;
+  font-weight: bold;
 }
 #hamburger {
   position: absolute;
   right: 0;
   top: 0;
   vertical-align: middle;
-  margin: 20px;
+  padding: 20px;
   text-transform: uppercase;
   color: inherit;
 }
 #hamburgerbutton {
-  margin-left: 20px;
-  padding-top: 1px;
+  padding: 1px 0 0 20px;
   float: right;
+}
+#hamburger:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 #hamburger-closed {
   position: absolute;
