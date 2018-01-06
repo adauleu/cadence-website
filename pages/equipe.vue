@@ -11,7 +11,7 @@
           Elle intervient dans tous les domaines du droit social, tant en conseil qu'en contentieux, sur les aspects individuels de la relation de travail, mais aussi sur les aspects collectifs du droit du travail.
         </p>
         <p>
-          Forte de son expérience professionnelle de près de sept années dans des cabinets d'avocats spécialisés en droit du travail, Anne-Sophie a une parfaite maîtrise de la procédure prud'homale et accompagne ses clients tout au long du processus judiciaire. Elle est également à même d'aider ses clients dans leur analyse et leurs prises de décision au stade pré-contentieux, ou en-dehors de tout litige dans le cadre de prestations de conseil en droit social, y compris sur des projets complexes.
+          Forte de son expérience professionnelle années acquise pendant six années auprès de cabinets d'avocats spécialisés en droit du travail, Anne-Sophie a créé son propre cabinet AW Legal en 2017 afin de poursuivre son activité de manière indépendante. Anne-Sophie a souhaité co-fonder Cadence Avocats en 2018 afin de proposer à ses clients une offre diversifiée, tout en conservant un cabinet à taille humaine.
         </p>
         <p>
           Outre un master de droit des affaires, Anne-Sophie est titulaire d'un DJCE (Diplôme de Juriste Conseil en Entreprise) et du certificat de spécialisation Droit social du DJCE.
