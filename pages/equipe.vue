@@ -67,6 +67,10 @@ article {
   width: 310px;
 }
 
+article h1 {
+  white-space: nowrap;
+}
+
 article img {
   display: block;
 }
