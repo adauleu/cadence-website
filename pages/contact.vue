@@ -22,8 +22,8 @@
                 <abbr>Mail</abbr>
               </div>
               <div id="numbers">
-                <a href="tel:+33177378910">01 77 37 89 10</a>
-                <a href="fax:+33142780357">01 42 78 03 57</a>
+                <a>01 77 37 89 10</a>
+                <a>01 42 78 03 57</a>
                 <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a>
               </div>
             </div>
