@@ -17,10 +17,12 @@
         <nuxt-link to="/contact">Contact</nuxt-link>
       </li>
     </ul>
+    <div class="mentions-legales">
+      <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
+    </div>
     <div class="address-logo-wrapper">
       <address>160, rue du Temple<br/>75003 PARIS</address>
       <img src="~/assets/Logo-Footer.svg" />
-      <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
     </div>
   </footer>
 </template>
@@ -31,6 +33,7 @@
     padding: 50px 15%;
     width: 100%;
   }
+
   ul {
     display: flex;
     flex-direction: row;
@@ -40,28 +43,37 @@
     padding-left: 0;
     width: 100%;
   }
+
   ul li a {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
   }
+
+  .mentions-legales {
+    padding-top: 20px;
+    text-align: right;
+  }
+
+  .mentions-legales a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   .address-logo-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
-    padding-top: 50px;
+    padding-top: 20px;
     width: 100%;
   }
+
   .address-logo-wrapper address {
     color: #ffffff;
     font-size: 16px;
     font-style: normal;
     text-align: left;
-  }
-  .address-logo-wrapper a {
-    color: #ffffff;
-    text-decoration: none;
   }
 </style>
