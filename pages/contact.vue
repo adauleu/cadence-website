@@ -32,7 +32,7 @@
           <img src="~/assets/Point-3.svg" class="separator"/>
 
           <h1>Recrutement</h1>
-          <p>
+          <p style="text-align: center">
             Les personnes intéressées par un stage ou une collaboration sont invitées à adresser leur lettre de motivation accompagnée d’un curriculum vitae à l’adresse suivante :
             <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a>
           </p>

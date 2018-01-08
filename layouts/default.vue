@@ -89,6 +89,7 @@ html {
 
 .page-content p {
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .page-content p:last-child {
