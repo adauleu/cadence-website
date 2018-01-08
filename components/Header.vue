@@ -1,11 +1,11 @@
 <template>
 <header>
-  <div @click="closeMenu()"><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
+  <div><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
   
   <div id="hamburger" @click="toggleMenu()">
     <div id="currentpage">{{currentMenu($route.path)}}</div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" v-show="!menuOpened"/>
   </div>
-  <div id="menu" v-show="menuOpened">
+  <div id="menu" v-show="menuOpened" @mouseleave="closeMenu()">
     <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
     <ul>
       <li @click="toggleMenu()"><nuxt-link to="/">Accueil</nuxt-link></li>

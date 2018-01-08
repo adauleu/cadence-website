@@ -82,6 +82,8 @@
             <div>
               Le cabinet assiste ses clients à l’occasion d’opérations stratégiques et/ou complexes, sur les aspects sociaux de ces opérations : réalisation d’audits d’acquisition et de conformité, gestion des incidences sociales de restructurations.
             </div>
+
+            <img src="~/assets/Point-3.svg" class="separator"/>            
           </article>
         </div>
       </div>
