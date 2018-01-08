@@ -1,8 +1,7 @@
 <template>
   <section>
       <div class="page-img">
-        <p>Contact</p>
-        Pour toute question ou demande d’information, vous pouvez nous contacter aux coordonnées suivantes.
+        Pour toute question ou demande d’information, n'hésitez pas à nous contacter.
       </div>
 
       <div class="page-content-wrapper">

@@ -1,7 +1,6 @@
 <template>
   <section>
       <div class="page-img">
-        <p>Le cabinet</p>
         Cadence Avocats vous accompagne dans le traitement de l’ensemble de vos problématiques en droit des affaires et droit social.
       </div>
 
@@ -12,7 +11,7 @@
           </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <div>
-            Issus de cabinets réputés, les avocats du cabinet disposent en effet de solides compétences dans leurs domaines de prédilection respectifs leur permettant d’offrir à leur clientèle des conseils hautement qualitatifs et sur-mesure.
+            Issus de cabinets réputés, les avocats du cabinet disposent de solides compétences dans leurs domaines de prédilection respectifs leur permettant d’offrir à leur clientèle des conseils qualitatifs et sur-mesure.
           </div>
           <img src="~/assets/Point-2.svg" class="separator"/>
           <div>

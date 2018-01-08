@@ -23,6 +23,8 @@
           <p>
             Résolument moderne, le modèle du cabinet repose sur la proximité et privilégie un contact simple et direct avec ses clients.
           </p>
+
+          <img src="~/assets/Point-3.svg" class="separator"/>          
         </div>
       </div>
   </section>
@@ -31,7 +33,6 @@
 <style scoped>
 .page-img {
   background-image: url("~/assets/images/Hero-Accueil.png");
-  background-position: center bottom;
 }
 
 .description p {

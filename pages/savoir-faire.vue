@@ -1,7 +1,6 @@
 <template>
   <section>
       <div class="page-img">
-        <p>Savoir-Faire</p>
         Nous intervenons pour le compte de TPE, PME ou de grands groupes, dans les domaines du droit des affaires et du droit social, en conseil comme en contentieux.
       </div>
 

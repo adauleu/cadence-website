@@ -18,8 +18,9 @@
       </li>
     </ul>
     <div class="address-logo-wrapper">
-      <address>160, rue du Temple<br/>75013 PARIS</address>
+      <address>160, rue du Temple<br/>75003 PARIS</address>
       <img src="~/assets/Logo-Footer.svg" />
+      <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
     </div>
   </footer>
 </template>
@@ -27,7 +28,7 @@
 <style scoped>
   footer {
     background-color: #33545C;
-    padding: 50px 20%;
+    padding: 50px 15%;
     width: 100%;
   }
   ul {
@@ -53,10 +54,14 @@
     padding-top: 50px;
     width: 100%;
   }
-  address {
+  .address-logo-wrapper address {
     color: #ffffff;
     font-size: 16px;
     font-style: normal;
     text-align: left;
+  }
+  .address-logo-wrapper a {
+    color: #ffffff;
+    text-decoration: none;
   }
 </style>

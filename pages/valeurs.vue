@@ -1,8 +1,7 @@
 <template>
   <section>
       <div class="page-img">
-        <p>Valeurs et engagements</p>
-        Cadence Avocats a à cœur d’établir une relation de confiance avec sa clientèle.
+        Cadence Avocats tient à établir une relation de confiance avec sa clientèle.
       </div>
 
       <div class="page-content-wrapper">

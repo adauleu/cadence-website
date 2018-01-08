@@ -58,7 +58,7 @@ html {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 100vh;
   padding: 0 15%;
   width: 100%;
   letter-spacing: 1.9px;
