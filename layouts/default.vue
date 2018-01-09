@@ -82,6 +82,12 @@ html {
   margin: 100px 20%;
 }
 
+@media (max-width: 420px) {
+  .page-content-wrapper {
+    margin: 100px 10%;
+  }
+}
+
 .page-content {
   color: #33545c;
   font-size: 19px;

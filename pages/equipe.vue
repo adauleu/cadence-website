@@ -1,8 +1,8 @@
 <template>
   <div class="page-content members">
     <article>
-      <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302">
-      <h1>Anne-Sophie Wafo-Tapa</h1>
+      <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302" class="team-picture">
+      <h1>Anne-Sophie<br/>Wafo-Tapa</h1>
       <div>
         <p>
           Anne-Sophie Wafo-Tapa, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.
@@ -24,7 +24,7 @@
     <img src="~/assets/Point-3-Vertical.svg" class="separator-vertical"/>
     <img src="~/assets/Point-3.svg" class="separator-horizontal"/>
     <article>
-      <img src="~/assets/images/Marie.jpg" height="454" width="302">
+      <img src="~/assets/images/Marie.jpg" height="454" width="302" class="team-picture">
       <h1>Marie Plassart</h1>
       <div>
         <p>
@@ -61,8 +61,17 @@
 @media (max-width: 900px) {
   .members {
     flex-direction: column;
+    margin: 100px 10%;
   }
 }
+
+@media (max-width: 420px) {
+  .members .team-picture {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .separator-vertical {
   margin: 0 100px;
   align-self: start;
@@ -79,7 +88,7 @@
   padding: 50px 0;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 901px) {
   .separator-horizontal {
     display: none;
   }
@@ -93,10 +102,6 @@ h1 {
 article {
   flex: 1;
   /* width: 310px; */
-}
-
-article h1 {
-  white-space: nowrap;
 }
 
 article img {
