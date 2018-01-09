@@ -29,6 +29,15 @@
             </div>
           </section>
 
+          <section id="contact-mobile">
+            <span>Cadence Avocats</span>
+            <span>160, rue du Temple</span>
+            <span>75003 Paris</span>
+            <span>Tel: <a href="tel:+33177378910">01 77 37 89 10</a></span>
+            <span>Fax: <a href="fax:+33142780357">01 42 78 03 57</a></span>
+            <span>Mail: <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a></span>
+          </section>
+
           <img src="~/assets/Point-3.svg" class="separator"/>
 
           <h1>Recrutement</h1>
@@ -44,6 +53,7 @@
 <style scoped>
 .page-img {
   background-image: url("~/assets/images/Hero-Contact.png");
+  padding: 20% 25%;
 }
 
 a {
@@ -64,6 +74,25 @@ abbr {
   align-items: center;
   margin: 50px 0;
 }
+
+@media (max-width: 900px) {
+  #contact {
+    display: none;
+  }
+}
+
+#contact-mobile span {
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+}
+
+@media (min-width: 901px) {
+  #contact-mobile {
+    display: none;
+  }
+}
+
 #address {
   flex: 1;
 }
