@@ -20,6 +20,7 @@ export default {
 
 <style>
 html {
+  display: flex;
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -49,20 +50,26 @@ html {
 }
 
 .page-img {
-  font-size: 28px;
+  /* font-size: 28px; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: white;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  min-height: 100vh;
-  padding: 0 15%;
+  padding: 20% 15%;
   width: 100%;
   letter-spacing: 1.9px;
   line-height: 45.3px;
+}
+
+@media (min-width: 1290px) {
+  .page-img {
+    font-size: 28px;
+    height: 100vh;
+  }
 }
 
 .page-img p {
