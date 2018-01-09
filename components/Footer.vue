@@ -98,6 +98,12 @@
     text-align: left;
   }
 
+  @media (max-width: 420px) {
+    .address-logo-wrapper img {
+      width: 240px;
+    }
+  }
+
   @media (max-width: 900px) {
     .address-logo-wrapper img {
       padding-top: 30px

@@ -54,6 +54,12 @@ header {
   width: 100%;
 }
 
+@media (max-width: 420px) {
+  header #logo {
+    width: 240px;
+  }
+}
+
 ul {
   clear: both;
   margin: 40px 0px 20px 0px;
