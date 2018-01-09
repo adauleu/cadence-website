@@ -44,6 +44,12 @@
     width: 100%;
   }
 
+  @media (max-width: 900px) {
+    ul {
+      flex-direction: column;
+    }
+  }
+
   ul li a {
     color: #ffffff;
     font-size: 16px;
@@ -54,6 +60,12 @@
   .mentions-legales {
     padding-top: 20px;
     text-align: right;
+  }
+
+  @media (max-width: 900px) {
+    .mentions-legales {
+      text-align: center;
+    }
   }
 
   .mentions-legales a {
@@ -70,10 +82,23 @@
     width: 100%;
   }
 
+  @media (max-width: 900px) {
+    .address-logo-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   .address-logo-wrapper address {
     color: #ffffff;
     font-size: 16px;
     font-style: normal;
     text-align: left;
+  }
+
+  @media (max-width: 900px) {
+    .address-logo-wrapper img {
+      padding-top: 30px
+    }
   }
 </style>

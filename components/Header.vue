@@ -112,7 +112,7 @@ ul li a:hover {
   float: left;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .currentpage {
     display: none;
   }
