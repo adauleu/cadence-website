@@ -21,7 +21,7 @@
       <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
     </div>
     <div class="address-logo-wrapper">
-      <address>160, rue du Temple 75003 PARIS</address>
+      <address>160, rue du Temple - 75003 Paris</address>
       <nuxt-link to="/">
         <img src="~/assets/Logo-Footer.svg" />
       </nuxt-link>
