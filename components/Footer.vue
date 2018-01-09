@@ -22,7 +22,9 @@
     </div>
     <div class="address-logo-wrapper">
       <address>160, rue du Temple<br/>75003 PARIS</address>
-      <img src="~/assets/Logo-Footer.svg" />
+      <nuxt-link to="/">
+        <img src="~/assets/Logo-Footer.svg" />
+      </nuxt-link>
     </div>
   </footer>
 </template>
