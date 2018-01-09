@@ -1,5 +1,5 @@
 <template>
-  <div id="members" class="page-content">
+  <div class="page-content members">
     <article>
       <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302">
       <h1>Anne-Sophie Wafo-Tapa</h1>
@@ -22,6 +22,7 @@
       </div>
     </article>
     <img src="~/assets/Point-3-Vertical.svg" class="separator-vertical"/>
+    <img src="~/assets/Point-3.svg" class="separator-horizontal"/>
     <article>
       <img src="~/assets/images/Marie.jpg" height="454" width="302">
       <h1>Marie Plassart</h1>
@@ -51,10 +52,37 @@
 </template>
 
 <style scoped>
+.members {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 30%;
+}
+
+@media (max-width: 900px) {
+  .members {
+    flex-direction: column;
+  }
+}
 .separator-vertical {
   margin: 0 100px;
   align-self: start;
   padding-top: calc(454/2 - 58/2)px
+}
+
+@media (max-width: 900px) {
+  .separator-vertical {
+    display: none;
+  }
+}
+
+.separator-horizontal {
+  padding: 50px 0;
+}
+
+@media (min-width: 900px) {
+  .separator-horizontal {
+    display: none;
+  }
 }
 
 h1 {
@@ -64,7 +92,7 @@ h1 {
 
 article {
   flex: 1;
-  width: 310px;
+  /* width: 310px; */
 }
 
 article h1 {
@@ -73,13 +101,5 @@ article h1 {
 
 article img {
   display: block;
-}
-</style>
-
-<style>
-#members {
-  display: flex;
-  flex-direction: row;
-  margin: 100px 10%;
 }
 </style>

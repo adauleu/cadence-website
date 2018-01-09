@@ -50,7 +50,6 @@ html {
 }
 
 .page-img {
-  /* font-size: 28px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
