@@ -2,7 +2,7 @@
   <div class="page-content members">
     <article>
       <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302" class="team-picture">
-      <h1>Anne-Sophie<br/>Wafo-Tapa</h1>
+      <h1>Anne-Sophie Wafo-Tapa</h1>
       <div>
         <p>
           Anne-Sophie Wafo-Tapa, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.
@@ -95,8 +95,10 @@
 }
 
 h1 {
+  font-size: 1em;
   margin: 30px 0;
   text-align: left;
+  white-space: nowrap;
 }
 
 article {

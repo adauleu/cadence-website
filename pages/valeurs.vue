@@ -7,7 +7,7 @@
       <div class="page-content-wrapper">
         <div class="page-content">
           <div>
-            La confiance est la clé d'une collaboration réussie : elle permet la réalisation d'un travail d'équipe, efficace et combattif, et crée la dynamique nécessaire pour mener à bien chaque dossier avec un haut niveau d'exigence.
+            La confiance est la clé d'une collaboration réussie : elle permet la réalisation d'un travail d'équipe, efficace et combatif, et crée la dynamique nécessaire pour mener à bien chaque dossier avec un haut niveau d'exigence.
           </div>
 
           <img src="~/assets/Point-1.svg" class="separator"/>
