@@ -7,7 +7,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.' },
+      { name: 'og:title', content: 'Cadence Avocats' },
+      { name: 'og:description', content: 'Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'http://cadenceavocats.com/' },
+      { name: 'og:image', content: 'http://cadenceavocats.com/_nuxt/img/Logo-Header.98fdffb.svg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
