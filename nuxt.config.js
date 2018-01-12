@@ -12,7 +12,7 @@ module.exports = {
       { property: 'og:description', content: 'Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'http://cadenceavocats.com/' },
-      { property: 'og:image', content: 'http://cadenceavocats.com/_nuxt/img/Logo-Header.png' }
+      { property: 'og:image', content: 'http://cadenceavocats.com/_nuxt/img/Logo-Header.98fdffb.svg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
