@@ -1,21 +1,21 @@
 <template>
   <section>
       <div class="page-img">
-        Cadence Avocats vous accompagne dans le traitement de l’ensemble de vos problématiques en droit des affaires et droit social.
+        {{ $t('firm.heroText') }}
       </div>
 
       <div class="page-content-wrapper">
         <div class="page-content">
           <div>
-            La taille et le mode de fonctionnement du cabinet permettent la pratique d’honoraires raisonnables tout en maintenant un haut niveau d’expertise.
+            {{ $t('firm.content[0]') }}
           </div>
           <img src="~/assets/Point-1.svg" class="separator"/>
           <div>
-            Issus de cabinets réputés, les avocats du cabinet disposent de solides compétences dans leurs domaines de prédilection respectifs leur permettant d’offrir à leur clientèle des conseils qualitatifs et sur-mesure.
+            {{ $t('firm.content[1]') }}
           </div>
           <img src="~/assets/Point-2.svg" class="separator"/>
           <div>
-            Idéalement situés en plein cœur du quartier du Haut Marais à Paris, les locaux du cabinet sont aisément accessibles par les transports en commun (stations Temple, Arts et Métiers ou République).
+            {{ $t('firm.content[2]') }}
           </div>
           <img src="~/assets/Point-3.svg" class="separator"/>
         </div>
