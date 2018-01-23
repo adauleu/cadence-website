@@ -2,23 +2,23 @@
   <footer>
     <ul>
       <li>
-        <nuxt-link to="/cabinet">Le cabinet</nuxt-link>
+        <nuxt-link to="/cabinet">{{ $t('links.firm') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/equipe">Équipe</nuxt-link>
+        <nuxt-link to="/equipe">{{ $t('links.team') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link>
+        <nuxt-link to="/savoir-faire">{{ $t('links.expertise') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/valeurs">Valeurs et engagements</nuxt-link>
+        <nuxt-link to="/valeurs">{{ $t('links.values') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/contact">Contact</nuxt-link>
+        <nuxt-link to="/contact">{{ $t('links.contact') }}</nuxt-link>
       </li>
     </ul>
     <div class="mentions-legales">
-      <nuxt-link to="/mentions-legales">Mentions légales</nuxt-link>
+      <nuxt-link to="/mentions-legales">{{ $t('links.legalNotices') }}</nuxt-link>
     </div>
     <div class="address-logo-wrapper">
       <address>160, rue du Temple - 75003 Paris</address>
