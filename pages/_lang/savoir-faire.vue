@@ -16,76 +16,66 @@
           <article v-show="isDroitAffaires">
             <h2>{{ $t('expertise.businessLaw.content[0].heading') }}</h2>
 
-            <div>
+            <p>
               {{ $t('expertise.businessLaw.content[0].description[0]') }}
-            </div>
+            </p>
 
             <img src="~/assets/Point-1.svg" class="separator"/>
 
             <h2>{{ $t('expertise.businessLaw.content[1].heading') }}</h2>
 
-            <div>
+            <p>
               {{ $t('expertise.businessLaw.content[1].description[0]') }}
-            </div>
+            </p>
 
             <img src="~/assets/Point-2.svg" class="separator"/>
 
             <h2>{{ $t('expertise.businessLaw.content[2].heading') }}</h2>
 
-            <div>
-              <p>
-                {{ $t('expertise.businessLaw.content[2].description[0]') }}
-              </p>
-              <p>
-                {{ $t('expertise.businessLaw.content[2].description[1]') }}
-              </p>
-            </div>
+            <p>
+              {{ $t('expertise.businessLaw.content[2].description[0]') }}
+            </p>
+            <p>
+              {{ $t('expertise.businessLaw.content[2].description[1]') }}
+            </p>
 
             <img src="~/assets/Point-3.svg" class="separator"/>
 
             <h2>{{ $t('expertise.businessLaw.content[3].heading') }}</h2>
 
-            <div>
-              <p>
-                {{ $t('expertise.businessLaw.content[3].description[0]') }}
-              </p>
-              <p>
-                {{ $t('expertise.businessLaw.content[3].description[1]') }}
-              </p>
-            </div>
+            <p>
+              {{ $t('expertise.businessLaw.content[3].description[0]') }}
+            </p>
+            <p>
+              {{ $t('expertise.businessLaw.content[3].description[1]') }}
+            </p>
           </article>
 
           <article v-show="!isDroitAffaires">
             <h2>{{ $t('expertise.employmentLaw.content[0].heading') }}</h2>
 
-            <div>
-              <p>
-                {{ $t('expertise.employmentLaw.content[0].description[0]') }}
-              </p>
-              <p>
-                {{ $t('expertise.employmentLaw.content[0].description[1]') }}
-              </p>
-            </div>
+            <p>
+              {{ $t('expertise.employmentLaw.content[0].description[0]') }}
+            </p>
+            <p>
+              {{ $t('expertise.employmentLaw.content[0].description[1]') }}
+            </p>
 
             <img src="~/assets/Point-1.svg" class="separator"/>
 
             <h2>{{ $t('expertise.employmentLaw.content[1].heading') }}</h2>
 
-            <div>
-              <p>
-                {{ $t('expertise.employmentLaw.content[1].description[0]') }}
-              </p>
-            </div>
+            <p>
+              {{ $t('expertise.employmentLaw.content[1].description[0]') }}
+            </p>
 
             <img src="~/assets/Point-2.svg" class="separator"/>
 
             <h2>{{ $t('expertise.employmentLaw.content[2].heading') }}</h2>
 
-            <div>
-              <p>
-                {{ $t('expertise.employmentLaw.content[2].description[0]') }}
-              </p>
-            </div>
+            <p>
+              {{ $t('expertise.employmentLaw.content[2].description[0]') }}
+            </p>
 
             <img src="~/assets/Point-3.svg" class="separator"/>            
           </article>

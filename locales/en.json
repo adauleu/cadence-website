@@ -98,5 +98,15 @@
         }
       ]
     }
+  },
+  "values": {
+    "heroText": "Cadence Avocats will always seek to establish client relationships based on trust.",
+    "content": [
+      "Trust is the key to successful collaboration: it provides the foundation for strong and effective teamwork and creates the necessary dynamic to ensure that every case is conducted with rigour and achieves the best possible outcome.",
+      "In order to gain the confidence of its clients, the firm is always approachable and is committed to an optimum level of responsiveness and availability.",
+      "Trust is also a function of fee transparency and predictability.",
+      "In compliance with the profession's rules of ethics, the firm's services are therefore always covered by a quote or a fee agreement concluded in advance, to ensure complete visibility of financial commitments.",
+      "Such fees are set in agreement with the client and are regularly reported as the case progresses."
+    ]
   }
 }
