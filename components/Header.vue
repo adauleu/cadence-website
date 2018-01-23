@@ -5,17 +5,31 @@
     <div id="hamburger" @click="toggleMenu()">
       <div class="currentpage">{{currentMenu($route.path)}}</div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" v-show="!menuOpened"/>
     </div>
+
     <div id="menu" v-show="menuOpened" @mouseleave="closeMenu()">
       <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
       <ul>
-        <li @click="toggleMenu()"><nuxt-link to="/">Accueil</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/cabinet">Le cabinet</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/equipe">Équipe</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">Savoir-faire</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/valeurs">Valeurs et Engagements</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/contact">Contact</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/">{{ $t('links.accueil') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/cabinet">{{ $t('links.cabinet') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/equipe">{{ $t('links.equipe') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">{{ $t('links["savoir-faire"]') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/valeurs">{{ $t('links.valeurs') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/contact">{{ $t('links.contact') }}</nuxt-link></li>
       </ul>
     </div>
+
+    <ul v-if="$i18n.locale === 'fr'" class="lang">
+      <li>FR</li>
+      <li>
+        <nuxt-link :to="'/en' + $route.fullPath">EN</nuxt-link>
+      </li>
+    </ul>
+    <ul v-else class="lang">
+      <li>
+        <nuxt-link :to="$route.fullPath.replace(/^\/[^\/]+/, '')">FR</nuxt-link>
+      </li>
+      <li>EN</li>
+    </ul>
   </header>
 </template>
 
@@ -60,18 +74,18 @@ header {
   }
 }
 
-ul {
+#menu ul {
   clear: both;
   margin: 40px 0px 20px 0px;
   padding-left: 0;
 }
 
-ul li {
+#menu ul li {
   list-style: none;
   padding: 0;
 }
 
-ul li a {
+#menu ul li a {
   color: inherit;
   display: flex;
   padding: 10px 0 10px 40px;
@@ -79,7 +93,7 @@ ul li a {
   text-transform: uppercase;
 }
 
-ul li a:hover {
+#menu ul li a:hover {
   background: #ffffff;
   color: #33545c;
   font-weight: bold;
@@ -139,5 +153,34 @@ ul li a:hover {
 }
 #logo {
   margin: 40px;
+}
+
+.lang {
+  background-color: #33545c;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+/* @media (min-width: 768px) {
+  .lang {
+    background-color: #ffffff;
+    color: #33545c;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+} */
+
+.lang li {
+  padding-left: 10px; 
+}
+
+.lang li a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>

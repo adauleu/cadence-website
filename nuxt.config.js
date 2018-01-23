@@ -32,5 +32,20 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: ['vue-i18n']
+  },
+  router: {
+    middleware: 'i18n'
+  },
+  plugins: ['./plugins/i18n.js'],
+  generate: {
+    routes: [
+      '/', '/en',
+      '/cabinet', '/en/cabinet',
+      '/equipe', '/en/equipe',
+      '/savoir-faire', '/en/savoir-faire',
+      '/valeurs', '/en/valeurs',
+      '/contact', '/en/contact',
+    ]
   }
 }
