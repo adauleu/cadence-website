@@ -1,4 +1,4 @@
 <script>
-import index from './_lang/index'
-export default index
+import home from './_lang/index'
+export default home
 </script>

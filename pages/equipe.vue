@@ -1,4 +1,4 @@
 <script>
-import equipe from './_lang/equipe'
-export default equipe
+import team from './_lang/equipe'
+export default team
 </script>

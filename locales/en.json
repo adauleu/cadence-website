@@ -48,5 +48,55 @@
         ]
       }
     ]
+  },
+  "expertise": {
+    "heroText": "Nous intervenons pour le compte de TPE, PME ou de grands groupes, dans les domaines du droit des affaires et du droit social, en conseil comme en contentieux.",
+    "businessLaw": {
+      "title": "Business law",
+      "content": [
+        {
+          "heading": "Company law",
+          "description": [ "Cadence Avocats provides assistance to clients wishing to create their own companies (development of governance, shareholder agreements) and in relation to acquisitions, disposals and restructuring (merger, demerger, partial transfer of assets)." ]
+        },
+        {
+          "heading": "Commercial law",
+          "description": [ "The firm supports its clients in drafting, renewal and transfer of commercial leases, business transfers, drafting of general terms and conditions and commercial contracts and in the field of retail law." ]
+        },
+        {
+          "heading": "Financing",
+          "description": [
+            "The firm also practises in banking and finance law.",
+            "It has also developed expertise in crowdfunding, providing services to CIP crowdfunding advisors and IFP crowdfunding intermediaries and helping project sponsors with their financing operations."
+          ]
+        },
+        {
+          "heading": "Dispute resolution",
+          "description": [
+            "Cadence Avocats offers its clients pre-litigation support, notably focussing on establishing out-of-court settlements.",
+            "Cadence Avocats supports and defends its clients in the civil and commercial courts, notably in the field of shareholder disputes, commercial litigation (breach of contract, unfair competition and issues related to contractual or tortious liability), management dismissal and liability, and enforcement proceedings."
+          ]
+        }
+      ]
+    },
+    "employmentLaw": {
+      "title": "Employment law",
+      "content": [
+        {
+          "heading": "Day-to-day management of working relationships",
+          "description": [
+            "The firm offers support to companies in day-to-day human resource management (drafting of employment contracts, managing all types of dismissal, managing negotiated departures, etc.) and in labour relations (establishment and administration of staff representative bodies and management of relations with employee representatives and unions).",
+            "Cadence Avocats has developed particular expertise in the administration and supervision of the various working time regimes and in the creation of company bonus and/or variable remuneration policies."
+          ]
+        },
+        {
+          "heading": "Employment litigation",
+          "description": [ "Cadence Avocats assists and supports its clients in all forms of employment dispute: individual disputes (notably relating to dismissal, harassment, discrimination, constructive dismissal, whether or not the employee leaves the company (prise d’acte or résiliation judiciaire), breach of working hours rules, undeclared work, reclassification of temporary, part time or zero hours employment contracts as permanent contracts), collective employment disputes (election and appointment of employee representatives, interference), regulatory issues (protected categories of employee) and social security disputes (notably gross misconduct)." ]
+        },
+        {
+          "heading": "Strategic activities",
+          "description": [ "The firm provides support to its clients in relation to the employment aspects of strategic and/or complex operations: acquisition and compliance audits and management of the employment impact of restructuring." ]
+        }
+      ]
+    }
   }
 }

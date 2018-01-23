@@ -1,4 +1,4 @@
 <script>
-import cabinet from './_lang/cabinet'
-export default cabinet
+import firm from './_lang/cabinet'
+export default firm
 </script>
