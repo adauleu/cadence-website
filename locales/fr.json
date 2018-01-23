@@ -23,5 +23,30 @@
       "Issus de cabinets réputés, les avocats du cabinet disposent de solides compétences dans leurs domaines de prédilection respectifs leur permettant d’offrir à leur clientèle des conseils qualitatifs et sur-mesure.",
       "Idéalement situés en plein cœur du quartier du Haut Marais à Paris, les locaux du cabinet sont aisément accessibles par les transports en commun (stations Temple, Arts et Métiers ou République)."
     ]
+  },
+  "team": {
+    "members": [
+      {
+        "name": "Anne-Sophie Wafo-Tapa",
+        "description": [
+          "Anne-Sophie Wafo-Tapa, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.",
+          "Elle intervient dans tous les domaines du droit social, tant en conseil qu'en contentieux, sur les aspects individuels de la relation de travail, mais aussi sur les aspects collectifs du droit du travail.",
+          "Forte de son expérience professionnelle acquise pendant six années auprès de cabinets spécialisés en droit du travail, Anne-Sophie a créé son propre cabinet AW Legal en 2017 afin de poursuivre son activité de manière indépendante. Anne-Sophie a souhaité co-fonder Cadence Avocats en 2018 afin de proposer à ses clients une offre diversifiée, tout en conservant un cabinet à taille humaine.",
+          "Outre un master de droit des affaires, Anne-Sophie est titulaire d'un DJCE (Diplôme de Juriste Conseil en Entreprise) et du certificat de spécialisation Droit social du DJCE.",
+          "Elle a étudié un an à la Cardiff School of Law & Politics et travaille en français et en anglais."
+        ]
+      },
+      {
+        "name": "Marie Plassart",
+        "description": [
+          "Marie Plassart, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.",
+          "Elle intervient dans tous les domaines du droit des affaires, tant en conseil qu’en contentieux.",
+          "Plus précisément, elle a développé une expertise en droit des sociétés, en financement (notamment en financement participatif), en droit commercial et en résolution des différends.",
+          "Après six années d’exercice au sein du cabinet Solferino Associés, Marie a décidé de co-fonder Cadence Avocats, afin d’enrichir les services proposés de compétences complémentaires.",
+          "Marie est titulaire du DJCE (Diplôme de Juriste Conseil d’Entreprise) de Rennes, d’un certificat en droit des sociétés, et d’un LLM in international business law de l’Université d’Exeter (Royaume-Uni).",
+          "Elle travaille en français et en anglais."
+        ]
+      }
+    ]
   }
 }

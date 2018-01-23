@@ -2,22 +2,22 @@
   <div class="page-content members">
     <article>
       <img src="~/assets/images/Anne-Sophie.jpg" height="454" width="302" class="team-picture">
-      <h1>Anne-Sophie Wafo-Tapa</h1>
+      <h1>{{ $t('team.members[0].name') }}</h1>
       <div>
         <p>
-          Anne-Sophie Wafo-Tapa, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.
+          {{ $t('team.members[0].description[0]') }}
         </p>
         <p>
-          Elle intervient dans tous les domaines du droit social, tant en conseil qu'en contentieux, sur les aspects individuels de la relation de travail, mais aussi sur les aspects collectifs du droit du travail.
+          {{ $t('team.members[0].description[1]') }}
         </p>
         <p>
-          Forte de son expérience professionnelle acquise pendant six années auprès de cabinets spécialisés en droit du travail, Anne-Sophie a créé son propre cabinet AW Legal en 2017 afin de poursuivre son activité de manière indépendante. Anne-Sophie a souhaité co-fonder Cadence Avocats en 2018 afin de proposer à ses clients une offre diversifiée, tout en conservant un cabinet à taille humaine.
+          {{ $t('team.members[0].description[2]') }}
         </p>
         <p>
-          Outre un master de droit des affaires, Anne-Sophie est titulaire d'un DJCE (Diplôme de Juriste Conseil en Entreprise) et du certificat de spécialisation Droit social du DJCE.
+          {{ $t('team.members[0].description[3]') }}
         </p>
         <p>
-          Elle a étudié un an à la Cardiff School of Law & Politics et travaille en français et en anglais.
+          {{ $t('team.members[0].description[4]') }}
         </p>
       </div>
     </article>
@@ -25,25 +25,25 @@
     <img src="~/assets/Point-3.svg" class="separator-horizontal"/>
     <article>
       <img src="~/assets/images/Marie.jpg" height="454" width="302" class="team-picture">
-      <h1>Marie Plassart</h1>
+      <h1>{{ $t('team.members[1].name') }}</h1>
       <div>
         <p>
-          Marie Plassart, fondatrice du cabinet Cadence Avocats, est avocate inscrite au Barreau de Paris.
+          {{ $t('team.members[1].description[0]') }}
         </p>
         <p>
-          Elle intervient dans tous les domaines du droit des affaires, tant en conseil qu’en contentieux.
+          {{ $t('team.members[1].description[1]') }}
         </p>
         <p>
-          Plus précisément, elle a développé une expertise en droit des sociétés, en financement (notamment en financement participatif), en droit commercial et en résolution des différends.
+          {{ $t('team.members[1].description[2]') }}
         </p>
         <p>
-          Après six années d’exercice au sein du cabinet Solferino Associés, Marie a décidé de co-fonder Cadence Avocats, afin d’enrichir les services proposés de compétences complémentaires.
+          {{ $t('team.members[1].description[3]') }}
         </p>
         <p>
-          Marie est titulaire du DJCE (Diplôme de Juriste Conseil d’Entreprise) de Rennes, d’un certificat en droit des sociétés, et d’un LLM in international business law de l’Université d’Exeter (Royaume-Uni).
+          {{ $t('team.members[1].description[4]') }}
         </p>
         <p>
-          Elle travaille en français et en anglais.
+          {{ $t('team.members[1].description[5]') }}
         </p>
       </div>
     </article>
