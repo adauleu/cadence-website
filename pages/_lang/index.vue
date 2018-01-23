@@ -1,27 +1,25 @@
 <template>
   <section>
       <div class="page-img">
-        Cadence Avocats est né du désir de mettre en commun des compétences complémentaires, au service des entreprises.
+        {{ $t('home.heroText') }}
       </div>
 
       <div class="page-content-wrapper">
         <div class="page-content">
           <p>
-            Nous intervenons pour le compte de TPE, PME ou de grands groupes, dans les domaines du droit des affaires et du droit social, en conseil comme en contentieux.
+            {{ $t('home.content[0]') }}
           </p>
 
           <img src="~/assets/Point-1.svg" class="separator"/>
 
           <p>
-            Convaincus que la profession d’avocat ne se limite pas à la seule prescription de conseils
-            juridiques, les avocats du cabinet attachent une grande importance à la compréhension
-            opérationnelle et tactique des dossiers et à l’humain.
+            {{ $t('home.content[1]') }}
           </p>
 
           <img src="~/assets/Point-2.svg" class="separator"/>
 
           <p>
-            Résolument moderne, le modèle du cabinet repose sur la proximité et privilégie un contact simple et direct avec ses clients.
+            {{ $t('home.content[2]') }}
           </p>
 
           <img src="~/assets/Point-3.svg" class="separator"/>          

@@ -1,10 +1,18 @@
 {
   "links": {
-    "accueil": "Home",
-    "cabinet": "The firm",
-    "equipe": "The team",
-    "savoir-faire": "Expertise",
-    "valeurs": "Values and commitments",
+    "home": "Home",
+    "firm": "The firm",
+    "team": "The team",
+    "expertise": "Expertise",
+    "values": "Values and commitments",
     "contact": "Contact"
+  },
+  "home": {
+    "heroText": "Cadence Avocats is dedicated to the servicing of companies by offering a full range of complementary skills.",
+    "content": [
+      "We provide advisory and litigation services in the fields of business law and employment law to VSEs, SMEs and large groups.",
+      "Convinced that the profession should not be limited to the provision of legal advice alone, the lawyers at our firm attach great importance to client relationships and to understanding the operational and tactical aspects of all cases.",
+      "The firm's modern approach favours direct and straightforward communication with clients."
+    ]
   }
 }

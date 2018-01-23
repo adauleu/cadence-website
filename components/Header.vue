@@ -9,27 +9,21 @@
     <div id="menu" v-show="menuOpened" @mouseleave="closeMenu()">
       <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
       <ul>
-        <li @click="toggleMenu()"><nuxt-link to="/">{{ $t('links.accueil') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/cabinet">{{ $t('links.cabinet') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/equipe">{{ $t('links.equipe') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">{{ $t('links["savoir-faire"]') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/valeurs">{{ $t('links.valeurs') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/">{{ $t('links.home') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/cabinet">{{ $t('links.firm') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/equipe">{{ $t('links.team') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">{{ $t('links.expertise') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link to="/valeurs">{{ $t('links.values') }}</nuxt-link></li>
         <li @click="toggleMenu()"><nuxt-link to="/contact">{{ $t('links.contact') }}</nuxt-link></li>
       </ul>
     </div>
 
-    <ul v-if="$i18n.locale === 'fr'" class="lang">
-      <li>FR</li>
-      <li>
-        <nuxt-link :to="'/en' + $route.fullPath">EN</nuxt-link>
-      </li>
-    </ul>
-    <ul v-else class="lang">
-      <li>
-        <nuxt-link :to="$route.fullPath.replace(/^\/[^\/]+/, '')">FR</nuxt-link>
-      </li>
-      <li>EN</li>
-    </ul>
+    <div v-if="$i18n.locale === 'fr'" class="lang">
+      <nuxt-link :to="`/en${$route.fullPath}`">EN</nuxt-link>
+    </div>
+    <div v-else class="lang">
+      <nuxt-link :to="$route.fullPath.replace(/^\/[^\/]+/, '')">FR</nuxt-link>
+    </div>
   </header>
 </template>
 
@@ -68,8 +62,12 @@ header {
   width: 100%;
 }
 
+#logo {
+  margin: 40px;
+}
+
 @media (max-width: 420px) {
-  header #logo {
+  #logo {
     width: 240px;
   }
 }
@@ -150,9 +148,7 @@ header {
   text-align: left;
   width: 250px;
   overflow-wrap: normal;
-}
-#logo {
-  margin: 40px;
+  z-index: 10;
 }
 
 .lang {
@@ -160,11 +156,10 @@ header {
   color: #ffffff;
   display: flex;
   justify-content: flex-end;
-  list-style-type: none;
   padding: 10px 20px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .lang {
     background-color: #ffffff;
     color: #33545c;
@@ -173,13 +168,9 @@ header {
     right: 0;
     bottom: 0;
   }
-} */
-
-.lang li {
-  padding-left: 10px; 
 }
 
-.lang li a {
+.lang a {
   color: inherit;
   text-decoration: none;
 }
