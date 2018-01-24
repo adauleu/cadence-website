@@ -108,5 +108,17 @@
       "In compliance with the profession's rules of ethics, the firm's services are therefore always covered by a quote or a fee agreement concluded in advance, to ensure complete visibility of financial commitments.",
       "Such fees are set in agreement with the client and are regularly reported as the case progresses."
     ]
+  },
+  "contact": {
+    "heroText": "Should you have any questions or require further information, please do not hesitate to contact us.",
+    "content": [
+      {
+        "heading": "Contact details"
+      },
+      {
+        "heading": "Recruitment",
+        "description": [ "Individuals interested in joining us or in an internship should send their CV and covering letter to:" ]
+      }
+    ]
   }
 }

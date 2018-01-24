@@ -108,5 +108,17 @@
       "Les prestations du cabinet font ainsi systématiquement l’objet d’un devis ou d’une convention d’honoraires préalable, dans le respect des règles déontologiques de la profession, afin d’assurer une visibilité sur les montants engagés.",
       "Ces honoraires sont fixés en accord avec le client, et donnent lieu à une information régulière en fonction de l’avancement du dossier"
     ]
+  },
+  "contact": {
+    "heroText": "Pour toute question ou demande d’information, n'hésitez pas à nous contacter.",
+    "content": [
+      {
+        "heading": "Cordonnées"
+      },
+      {
+        "heading": "Recrutement",
+        "description": [ "Les personnes intéressées par un stage ou une collaboration sont invitées à adresser leur lettre de motivation accompagnée d’un curriculum vitae à l’adresse suivante: " ]
+      }
+    ]
   }
 }

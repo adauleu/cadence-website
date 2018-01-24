@@ -1,12 +1,12 @@
 <template>
   <section>
       <div class="page-img">
-        Pour toute question ou demande d’information, n'hésitez pas à nous contacter.
+        {{ $t('contact.heroText') }}
       </div>
 
       <div class="page-content-wrapper">
         <div class="page-content">
-          <h1>Coordonnées</h1>
+          <h1>{{ $t('contact.content[0].heading') }}</h1>
 
           <section id="contact">
             <div id="address">
@@ -40,9 +40,9 @@
 
           <img src="~/assets/Point-3.svg" class="separator"/>
 
-          <h1>Recrutement</h1>
+          <h1>{{ $t('contact.content[1].heading') }}</h1>
           <p style="text-align: center">
-            Les personnes intéressées par un stage ou une collaboration sont invitées à adresser leur lettre de motivation accompagnée d’un curriculum vitae à l’adresse suivante :
+            {{ $t('contact.content[1].description[0]') }}
             <a href="mailto:contact@cadenceavocats.com">contact@cadenceavocats.com</a>
           </p>
         </div>
