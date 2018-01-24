@@ -64,9 +64,9 @@ header {
   margin: 40px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   #logo {
-    width: 240px;
+    width: 190px;
   }
 }
 
@@ -150,22 +150,14 @@ header {
 }
 
 .lang {
-  background-color: #33545c;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #33545c;
   display: flex;
   justify-content: flex-end;
-  padding: 10px 20px;
-}
-
-@media (min-width: 768px) {
-  .lang {
-    background-color: #ffffff;
-    color: #33545c;
-    padding: 20px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .lang a {

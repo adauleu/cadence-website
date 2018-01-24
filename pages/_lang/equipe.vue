@@ -19,6 +19,9 @@
         <p>
           {{ $t('team.members[0].description[4]') }}
         </p>
+        <p>
+          {{ $t('team.members[0].description[5]') }}
+        </p>
       </div>
     </article>
     <img src="~/assets/Point-3-Vertical.svg" class="separator-vertical"/>
@@ -47,7 +50,6 @@
         </p>
       </div>
     </article>
-
   </div>
 </template>
 

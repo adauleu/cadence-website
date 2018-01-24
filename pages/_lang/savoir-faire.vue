@@ -49,6 +49,14 @@
             <p>
               {{ $t('expertise.businessLaw.content[3].description[1]') }}
             </p>
+
+            <img src="~/assets/Point-3.svg" class="separator"/>
+            
+            <h2>{{ $t('expertise.employmentLaw.content[3].heading') }}</h2>
+
+            <p>
+              {{ $t('expertise.employmentLaw.content[3].description[0]') }}
+            </p>
           </article>
 
           <article v-show="!isDroitAffaires">
@@ -77,7 +85,13 @@
               {{ $t('expertise.employmentLaw.content[2].description[0]') }}
             </p>
 
-            <img src="~/assets/Point-3.svg" class="separator"/>            
+            <img src="~/assets/Point-3.svg" class="separator"/>
+
+            <h2>{{ $t('expertise.employmentLaw.content[3].heading') }}</h2>
+
+            <p>
+              {{ $t('expertise.employmentLaw.content[3].description[0]') }}
+            </p>
           </article>
         </div>
       </div>
