@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div><nuxt-link to="/"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
+    <div><nuxt-link :to="$i18n.path('')"><img id="logo" src="~/assets/Logo-Header.svg" /></nuxt-link></div>
     
     <div id="hamburger" @click="toggleMenu()">
       <div class="currentpage">{{currentMenu($route.path)}}</div><img id="hamburgerbutton" src="~/assets/Hamburger.svg" v-show="!menuOpened"/>
@@ -9,20 +9,18 @@
     <div id="menu" v-show="menuOpened" @mouseleave="closeMenu()">
       <img id="hamburger-closed" src="~/assets/Hamburger-Close.svg" @click="toggleMenu()" />
       <ul>
-        <li @click="toggleMenu()"><nuxt-link to="/">{{ $t('links.home') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/cabinet">{{ $t('links.firm') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/equipe">{{ $t('links.team') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/savoir-faire">{{ $t('links.expertise') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/valeurs">{{ $t('links.values') }}</nuxt-link></li>
-        <li @click="toggleMenu()"><nuxt-link to="/contact">{{ $t('links.contact') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('')">{{ $t('links.home') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('cabinet')">{{ $t('links.firm') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('equipe')">{{ $t('links.team') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('savoir-faire')">{{ $t('links.expertise') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('valeurs')">{{ $t('links.values') }}</nuxt-link></li>
+        <li @click="toggleMenu()"><nuxt-link :to="$i18n.path('contact')">{{ $t('links.contact') }}</nuxt-link></li>
       </ul>
     </div>
 
-    <div v-if="$i18n.locale === 'fr'" class="lang">
-      <nuxt-link :to="`/en${$route.fullPath}`">EN</nuxt-link>
-    </div>
-    <div v-else class="lang">
-      <nuxt-link :to="$route.fullPath.replace(/^\/[^\/]+/, '')">FR</nuxt-link>
+    <div class="lang">
+      <nuxt-link v-if="$i18n.locale === 'fr'" :to="`/en${$route.fullPath}`">EN</nuxt-link>
+      <nuxt-link v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')">FR</nuxt-link>
     </div>
   </header>
 </template>

@@ -2,27 +2,27 @@
   <footer>
     <ul>
       <li>
-        <nuxt-link to="/cabinet">{{ $t('links.firm') }}</nuxt-link>
+        <nuxt-link :to="$i18n.path('cabinet')">{{ $t('links.firm') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/equipe">{{ $t('links.team') }}</nuxt-link>
+        <nuxt-link :to="$i18n.path('equipe')">{{ $t('links.team') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/savoir-faire">{{ $t('links.expertise') }}</nuxt-link>
+        <nuxt-link :to="$i18n.path('savoir-faire')">{{ $t('links.expertise') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/valeurs">{{ $t('links.values') }}</nuxt-link>
+        <nuxt-link :to="$i18n.path('valeurs')">{{ $t('links.values') }}</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/contact">{{ $t('links.contact') }}</nuxt-link>
+        <nuxt-link :to="$i18n.path('contact')">{{ $t('links.contact') }}</nuxt-link>
       </li>
     </ul>
     <div class="mentions-legales">
-      <nuxt-link to="/mentions-legales">{{ $t('links.notices') }}</nuxt-link>
+      <nuxt-link :to="$i18n.path('mentions-legales')">{{ $t('links.notices') }}</nuxt-link>
     </div>
     <div class="address-logo-wrapper">
       <address>160, rue du Temple - 75003 Paris</address>
-      <nuxt-link to="/">
+      <nuxt-link :to="$i18n.path('')">
         <img src="~/assets/Logo-Footer.svg" />
       </nuxt-link>
     </div>
