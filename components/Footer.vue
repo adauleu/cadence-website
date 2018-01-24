@@ -18,7 +18,7 @@
       </li>
     </ul>
     <div class="mentions-legales">
-      <nuxt-link to="/mentions-legales">{{ $t('links.legalNotices') }}</nuxt-link>
+      <nuxt-link to="/mentions-legales">{{ $t('links.notices') }}</nuxt-link>
     </div>
     <div class="address-logo-wrapper">
       <address>160, rue du Temple - 75003 Paris</address>

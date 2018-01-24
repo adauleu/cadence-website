@@ -6,7 +6,7 @@
     "expertise": "Expertise",
     "values": "Values and commitments",
     "contact": "Contact",
-    "legalNotices": "Legal notices"
+    "notices": "Legal notices"
   },
   "home": {
     "heroText": "Cadence Avocats is dedicated to the servicing of companies by offering a full range of complementary skills.",
@@ -118,6 +118,41 @@
       {
         "heading": "Recruitment",
         "description": [ "Individuals interested in joining us or in an internship should send their CV and covering letter to:" ]
+      }
+    ]
+  },
+  "notices": {
+    "content": [
+      {
+        "heading": "Legal notices",
+        "description": [
+          "<strong>Cadence Avocats</strong><br/>A French <em>Association d’avocats à responsabilité professionnelle individuelle</em><br/>Registered office: 160 rue du Temple, 75003 Paris<br/>contact@cadenceavocats.com<br/>SIRENE directory number 833 676 802<br/>Co-directors: Marie Plassart and Anne-Sophie Wafo-Tapa, lawyers and members of the Paris Bar",
+          "<u>Editor</u><br/>Cadence Avocats<br/>Marie Plassart and Anne-Sophie Wafo-Tapa",
+          "<u>Creation and web design</u><br/>POPWORKS<br/>Daniel Medina Hernandez<br/>11 rue Felix Faure<br/>75015 Paris<br/>RCS Paris reg. no. 535 216 576",
+          "<u>Site hosting</u><br/>The website is hosted by OVH, 2 Rue Kellermann – BP 80157 – 59100 Roubaix<br/>Mail : support@ovh.com",
+          "<u>Photo credits</u><br/>© Imagine Motion – Antoine Le Pourhiet"
+        ]
+      },
+      {
+        "heading": "Conditions of use",
+        "description": [
+          "This website and its contents have been provided by Cadence Avocats for illustrative and information purposes only. They may be modified at any time without prior notice. Under no circumstances do they constitute any act of legal advice or any invitation, solicitation and/or any offer of services of any nature whatsoever.",
+          "You retain full responsibility for your use of the website and of the information it contains. Cadence Avocats may not be held liable for any damage related to the consultation or utilisation of the website by the user.",
+          "Cadence Avocats ensures that the website www.cadenceavocats.com does not contain any hyperlink enabling direct or indirect access to websites or website pages the contents of which may be contrary to the fundamental principles of the profession of lawyer and that it takes all necessary measures to delete such links should the website reveal itself to be contrary to the fundamental principles of the profession. However, Cadence Avocats may not be held liable beyond the aforementioned ethical obligation.",
+          "This site is intended for strictly personal use only.",
+          "Any reproduction, representation or adaptation of information, brochures, releases, illustrations, computer programmes or logos contained on the site, whether in part or in whole and irrespective of the medium, is strictly prohibited. Non-compliance with this provision shall constitute an infringement which may give rise to civil and/or criminal liability.",
+          "Finally, Cadence Avocats may not be held liable for damage resulting from any fraudulent third-party intrusion that causes modification of the information provided on this website."
+        ]
+      },
+      {
+        "heading": "Confidentiality",
+        "description": [
+          "Personal data collected via this site will be processed in accordance with French data protection legislation (law no. 78-17 of 6 January 1978, as amended).",
+          "Your personal information transmitted via the Cadence Avocats website may be viewed exclusively by our professional staff. Any data collected or processed by Cadence Avocats via the site shall not be sold or leased to any third party, whether for payment or free of charge.",
+          "Data about the personnel of Cadence Avocats made available on this site may not be collected and processed without prior written approval from the person in question. All users shall notably refrain from collecting and using such data via manual or automated means in order to send advertising messages of any nature whatsoever.",
+          "In accordance with the aforementioned French data protection legislation, you have the right to access, rectify and delete your personal data, which may be exercised at any time by sending us an e-mail (contact@cadenceavocats.com) or request by post (Cadence Avocats – 160 Rue du Temple, 75003 Paris), stating your surname, first names and e-mail address.",
+          "In accordance with the provisions of Article L.612-1 et seq. of the French Consumer Code, in the event of a dispute with a lawyer you may refer the matter free of charge to the Consumer Ombudsman, who is the national mediator at the Conseil National des Barreaux (CNB), at the following address: CNB, Médiateur de la Consommation, 22 Rue de Londres – 75009 PARIS."
+        ]
       }
     ]
   }
